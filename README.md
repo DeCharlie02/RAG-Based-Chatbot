@@ -59,3 +59,7 @@ https://github.com/user-attachments/assets/e18d9b88-ad41-45a3-ae36-a10fb10daf69
 - **Transformers (Hugging Face):** For image classification.
 
 This chatbot integrates multiple AI components to provide an interactive and intelligent analysis tool for scientific literature.
+
+### Note on Credentials
+
+Please note that to fully utilize the capabilities of the Scientific Literature RAG Chatbot, a paid version of the API credentials is required. Free versions may have limited access and can result in errors indicating that you have exhausted your quota for the day. For uninterrupted access, ensure you use a paid API key.
