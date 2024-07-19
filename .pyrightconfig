@@ -1,0 +1,25 @@
+{
+  "settings": {
+    "python.analysis.typeInference": {
+      "typeInferenceEnabled": true,
+      "typeInferenceMode": "strict",
+      "typeInferenceForBuiltins": true,
+      "typeInferenceForLibraries": true
+    }
+  },
+  "exclude": ["node_modules", "venv", "build", ".cache"],
+  "literals": {
+    "stringEscape": true
+  },
+  "plugins": ["pyright"],
+  "python": {
+    "languageVersion": "3.9",
+    "typeCheckingMode": "strict",
+    "typeInferenceMode": "strict",
+    "implicitImports": ["PyMuPDF"],
+    "formatting": {
+      "provider": "autopep8"
+    }
+  },
+  "disable": ["reportUndefinedVariable", "reportMissingImports"]
+}
